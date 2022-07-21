@@ -1,0 +1,22 @@
+ .clima_text {
+    display: flex;
+    align-items: center;
+  }
+  
+  .clima_text span {
+    display: block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin-right: 5px;
+  }
+  
+  .clima_text .ensolarado {
+    background-color: #fdaf1d;
+  }
+  
+  .clima_text .chuvoso {
+    background-color: #3295ff;
+  }
+  

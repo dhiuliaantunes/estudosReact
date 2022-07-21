@@ -1,0 +1,48 @@
+.details{
+    padding: 2em;
+}
+
+.details h1,
+.details h2,
+.details p {
+    margin-bottom: 0.5em;
+}
+
+.details h1{ 
+    color: #ffffff;
+    padding: 0 0.2em;
+    background-color: rgb(138, 52, 204);
+}
+
+.details span{
+    font-weight: bold;
+}
+
+.details_container,
+.form_container{
+    border-bottom: 1px solid #35ad89;
+    margin-bottom: 1.2em;
+    padding-bottom: 1.2em;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.btn {
+    background-color: rgb(138, 52, 204);
+    color: #fff;
+    padding: 0.5em 2em;
+    text-decoration: none;
+    transition: 0.5s;
+    cursor: pointer;
+    max-height: 40px;
+    border: none
+  }
+  
+  .btn:hover {
+    color: #ffbb33;
+  }
+  
+  .info{
+    width: 100%;
+  }

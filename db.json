@@ -1,0 +1,131 @@
+{
+  "dates": [
+    {
+      "date": "Caminhar na Fenavinho",
+      "climas": {
+        "id": "1",
+        "name": "Ensolarado"
+      },
+      "id": 1
+    },
+    {
+      "date": "Maratonar um desenho",
+      "climas": {
+        "id": "2",
+        "name": "Chuvoso"
+      },
+      "id": 2
+    },
+    {
+      "date": "Passear com os cachorros",
+      "climas": {
+        "id": "1",
+        "name": "Ensolarado"
+      },
+      "id": 3
+    }
+  ],
+  "climas": [
+    {
+      "id": 1,
+      "name": "Ensolarado"
+    },
+    {
+      "id": 2,
+      "name": "Chuvoso"
+    }
+  ],
+  "filmes": [
+    {
+      "id": 1,
+      "type": "Filme",
+      "name": "O Homem Duplicado",
+      "synopsis": "Adam Bell é um professor de história entediado com sua rotina. A vida dele muda completamente quando ele assiste a um filme e descobre que tem um sósia. Em busca desse ator, Adam cria uma verdadeira obsessão e começa a perseguir o homem."
+    },
+    {
+      "id": 2,
+      "name": "The Boys",
+      "type": "Série",
+      "synopsis": "A Terra é habitada por super-heróis que são um inspiração para a humanidade. Porém, esses protetores têm um lado sinistro que a maioria das pessoas desconhece. Se eles usam seus poderes para o mal, Hughie, Billy e o resto do time devem detê-los."
+    }
+  ],
+  "receitas": [
+    {
+      "id": 1,
+      "name": "Brownie",
+      "ingredients": "Ovo, manteiga, chocolate, açúcar...",
+      "preparation": "Misturar e levar ao forno a 180ºC",
+      "categories": {
+        "id": "1",
+        "name": "Café da manhã/Lanche"
+      }
+    },
+    {
+      "name": "Panqueca",
+      "ingredients": "1 ovo, 1 colher de tapioca, 1 colher de coco ralado, 1 colher de whey protein, uma pitada de essência de baunilha, uma colher pequena de fermento em pó",
+      "preparation": "Misturar todos os ingredientes e acresentar em uma frigideira pré-aquecida <3",
+      "categories": {
+        "id": "1",
+        "name": "Café da manhã/Lanche"
+      },
+      "id": 3
+    },
+    {
+      "name": "Ratatouille",
+      "ingredients": "Abobrinha, berinjela, tomate...",
+      "preparation": "Misturar e assar",
+      "categories": {
+        "id": "2",
+        "name": "Almoço/Jantar"
+      },
+      "id": 4
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Café da manhã/Lanche"
+    },
+    {
+      "id": 2,
+      "name": "Almoço/Jantar"
+    }
+  ],
+  "lugares": [
+    {
+      "id": 1,
+      "name": "Casa das Cucas",
+      "description": "De menu italiano autoral chamativo, restaurante amadeirado tem ares intimistas e sacada envidraçada elegante",
+      "location": "Estrada Caminhos de Pedra Linha Palmeiro, Bento Gonçalves - RS"
+    }
+  ],
+  "jogos": [
+    {
+      "id": 1,
+      "name": "Stray",
+      "description": "Perdido, sozinho e separado da sua família, um gato de rua precisa desvendar um mistério ancestral para fugir de uma cibercidade esquecida e encontrar o caminho para casa.",
+      "tipos": {
+        "id": "4",
+        "name": "Online"
+      }
+    }
+  ],
+  "tipos": [
+    {
+      "id": 1,
+      "name": "Tabuleiro"
+    },
+    {
+      "id": 2,
+      "name": "Cartas"
+    },
+    {
+      "id": 3,
+      "name": "Console"
+    },
+    {
+      "id": 4,
+      "name": "Online"
+    }
+  ]
+}
